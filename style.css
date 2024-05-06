@@ -24,6 +24,9 @@ span{
     color: black;
 }
 
+.aqui{
+    color: rgb(148, 13, 13);
+}
 
 
 iframe{
@@ -46,20 +49,40 @@ iframe{
 }
 
 .help{
-    color: black;
+    color: rgb(221, 48, 48);
 }
 
 .help:hover{
-    color: brown;
+    color: rgb(235, 27, 27);
+}
+
+.center-content {
+    text-align: center;
+    padding-left: 35%;
+    margin: 20px;
+    
+}
+
+#entretenimento{
+    padding: 20px 70px 20px 70px;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(51, 42, 42);
 }
 
 a:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    color: rgb(99, 99, 231);
+    
+}
+
+.icones{
+    display: inline-block;
+}
+
+.icone-titulo{
     color: rgb(99, 99, 231);
 }
 
