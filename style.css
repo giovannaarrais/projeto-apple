@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    text-align: center;
+    padding: 20px;
+    font-family: Inter;
+    margin: 20px;
+}
+
+i{
+    padding-left: 50px;
+}
+
+.titulo{
+    color: rgba(0, 0, 0, 0.74);
+}
+
+span{
+    color: black;
+}
+
+
+
+iframe{
+    width: 100%;
+    height: 50vw;
+    text-align: center;
+    padding: 20px;
+}
+
+#caixas{
+    display: inline-flex;
+    
+}
+
+.destaque{
+    font-weight: bold;
+    color: rgb(233, 192, 116);
+    font-size: 19px;
+
+}
+
+.help{
+    color: black;
+}
+
+.help:hover{
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(99, 99, 231);
+}
+
+
+
