@@ -69,7 +69,7 @@
                   </button>
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Estamos aqui para ajudar. Encontre respostas para suas perguntas ou entre em contato com nossa equipe de suporte dedicada. Para isso, clique <a class="help" href="https://support.apple.com/pt-br" target="_blank"><span class="aqui">aqui</span></a></div>
+                  <div class="accordion-body">Estamos aqui para ajudar. Encontre respostas para suas perguntas ou entre em contato com nossa equipe de suporte dedicada. Para isso, clique <a  href="https://support.apple.com/pt-br" target="_blank"><span class="aqui">aqui</span></a></div>
                 </div>
               </div>
             </div>
@@ -116,9 +116,11 @@
 
         <h2>Iphone 15 Ultra</h2>
 
-        <div id="video" class="row">
+        <div class="row">
           <div class="col-lg-12">
-            <iframe width="700" height="500" autoplay src="https://www.youtube.com/embed/8yF2_HqJllg?si=DgiqH2K7tslaSdZN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"  allowfullscreen></iframe>
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/8yF2_HqJllg?si=DgiqH2K7tslaSdZN" allowfullscreen autoplay ></iframe>
+            </div>
           </div>     
         </div>
 
@@ -386,8 +388,15 @@
           
 
           <div class="row ">
-            <div class="col-lg-8 center-content">
-              <button class="btn btn-success " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" id="entretenimento">Entretenimento</button>
+            <div id="container" class="col-lg-12 justify-content-center">
+              <h2>Entretenimento</h2>
+              <h4>Conheça mais filmes assim no Apple Tv</h4>
+                <div class="ratio ratio-16x9 ">
+                  <iframe src="https://www.youtube.com/embed/ylXHPR1H5Pc?si=Q6FezwVP7KB87fps" title="YouTube video" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <button class="btn btn-dark " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" id="entretenimento">Descubra Mais</button>
 
             <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
               <div class="offcanvas-header">
@@ -441,20 +450,121 @@
             </div>
           </div>
 
-          <div id="acessorios" class="row">
-            <div >
+          <div id="acessorios" class="row  ">
+            <div class="col-lg-12 mb-5" >
               <h2 class="titulo-acessorios">Acessórios</h2>
+              <h3>Escolha os seus acessórios para os produtos que quiser</h3>
+              <div class="acessorios">
+                <a href="https://www.apple.com/br/shop/mac/accessories">
+                  <img src="imagens/icon-product-mac.png " alt="">
+                  <h3>Mac</h3>
+                </a>
+              </div>
+              <div class="acessorios">
+                <a href="https://www.apple.com/br/shop/ipad/accessories">
+                  <img src="imagens/icon-product-ipad.png" alt="">
+                  <h3>IPad</h3>
+                </a>
+              </div>
+              <div class="acessorios">
+                <a href="https://www.apple.com/br/shop/iphone/accessories">
+                  <img src="imagens/icon-product-iphone.png" alt="">
+                  <h3>Iphone</h3>
+                </a>
+              </div>
+              <div class="acessorios">
+                <a href="https://www.apple.com/br/shop/watch/accessories">
+                  <img src="imagens/icon-product-watch.png" alt="">
+                  <h3>Watch</h3>
+                </a>
+              </div>
+              <div class="acessorios">
+                <a href="https://www.apple.com/br/shop/smart-home/accessories">
+                  <img src="imagens/icon-product-tv.png" alt="">
+                  <h3>Tv e Casa</h3>
+                </a>
+              </div>
             </div>
-          </div>
-
-          <div class="row">
+            <hr>
             <div class="col-lg-12">
-              <h2 id="suporte">Suporte</h2>
-              <div class="overflow-auto">Suporte</div>
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="imagens/relogio.png" class="card-img-top" alt="AirPods (3ª geração)">
+                    <div class="card-body">
+                      <h5 class="card-title"> <a href="https://www.apple.com/br/shop/product/MWMV3AM/A/pulseira-esportiva-azul-clara-para-caixa-de-45-mm-m-g?fnode=abb0d058f59b977398e8decc8bac9675dd3aabf17c70768c076c665da96cbcf6bbdf4918e218f4f575c12d126fae0ed63f17fe30a4c9cbb7951d77bb4a265399400b47ed04c0c4e05d9fd806700c6428252c3b281e02c186c04b99b5537ad011">Pulseira esportiva azul-clara para caixa de 45 mm – M/G</a></h5>
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="imagens/controle.png" class="card-img-top" alt="AirPods Max">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="https://www.apple.com/br/shop/product/HQGK2ZM/A/sistema-totalmount-pro-para-instala%C3%A7%C3%A3o-da-apple-tv-em-televisores-de-parede?fnode=309e9cc52eefd799cfd6e34dedd63b5426ace413bdeea48032f71ec009e6bf6db599c16cbf9763ca4187aea655ff96be2a2f24e4abd6d97b42ff6b69e962dfd3243cd6968846965cd8b19841501959a370944120af8a85b6db1fb50b1f8a55dc">Sistema TotalMount Pro para instalação da Apple TV em televisores de parede</a></h5>
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="imagens/teclado.png" class="card-img-top" alt="AirPods (2ª geração)">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="https://www.apple.com/br/shop/product/MMMR3BZ/A/magic-keyboard-com-touch-id-e-teclado-num%C3%A9rico-para-modelos-de-mac-com-chip-da-apple-ingl%C3%AAs-eua-teclas-pretas?fnode=0ec334f2d0d9c22f96616555a4cbf40774002411325a436d9ea61eca6a93e9a426dcbeb08f4d04aa4a66260dc234e2f78ebebef6e5eeba9007aa6369be112ec9df06a374defa8d7917621ace2c430e622a6572714991710e58a44b8034993751">Magic Keyboard com Touch ID e teclado numérico para modelos de Mac com chip da Apple – Teclas pretas</a></h5>
+                      <p class="card-text">
+                      </p>
+                    </div>
+                  </div>
+              </div>
+             </div>
+              
             </div>
           </div>
+          <hr style="margin-top: 20px;">
+          <hr>
 
-
+          <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <h2 id="suporte">Suporte</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 text-center">
+                            <div class="suporteicone mb-3">
+                                <a href="https://support.apple.com/pt-br/102656">
+                                  <i class="fa-solid fa-lock fa-3x"></i>
+                                  <p>Esqueceu a senha do ID Apple</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <div class="suporteicone mb-3">
+                                <a href="https://support.apple.com/pt-br/repair">
+                                  <i class="fa-solid fa-screwdriver-wrench fa-3x"></i>
+                                  <p>Reparo da Apple</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <div class="suporteicone mb-3">
+                                <a href="https://support.apple.com/pt-br/billing">
+                                  <i class="fa-solid fa-file-contract fa-3x"></i>
+                                  <p>Assinaturas e Cobrança</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 style="text-align: center; padding: 30px;">Buscar mais tópicos</h4>
+                <nav class="navbar bg-body-tertiary">
+                  <div class="container-fluid text-center">
+                      <form class="d-flex justify-content-center" role="search" style="max-width: 800px; margin: auto;"> 
+                          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search" style="width: 600px;"> 
+                          <button class="btn btn-outline-dark" type="submit">OK</button>
+                      </form>
+                  </div>
+              </nav>
+            </div>
+        </div>       
       </div>
 </body>
 </html>
