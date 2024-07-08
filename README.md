@@ -4,7 +4,7 @@ Olá! Meu nome é Giovanna Arrais, e este é o meu trabalho final do 1º semestr
 
 
 ## Habilidades
-Para fazer o portifólio, utilizei:
+Para fazer o trabalho, utilizei:
 - Bootstrap
 - CSS
 - HTML
