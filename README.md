@@ -1,6 +1,6 @@
 ## Trabalho da Faculdade
 
-Olá! Meu nome é Giovanna Arrais 👋.
+Olá! Meu nome é Giovanna Arrais 👋
 
 Este é o meu trabalho final do 1º semestre da faculade de Análise e Desenvolvimento de Sistemas, onde eu pude colocar em prática oque aprendi durante esse período.
 
