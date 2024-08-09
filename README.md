@@ -13,7 +13,7 @@ Para fazer o trabalho, utilizei:
 
 
 ## 🔗 Links e Contato
-Para entrar em contato comigo, você pode enviar um e-mail para giovannaarrais14@gmail.com
+Para entrar em contato comigo, você pode enviar um e-mail para giovannaarrais.dev@gmail.com
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://giovannaarrais.github.io/portfolio-2.0/)
 
