@@ -1,4 +1,4 @@
-## Trabalho da Faculdade
+## Trabalho da Faculdade 📚
 
 Olá! Meu nome é Giovanna Arrais 👋.
 
