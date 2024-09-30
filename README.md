@@ -2,12 +2,12 @@
 
 Olá! Meu nome é Giovanna Arrais 👋.
 
-Este é o meu trabalho final do 1º semestre da faculade de Análise e Desenvolvimento de Sistemas, onde eu pude colocar em prática oque aprendi durante esse período.
+Este é o meu trabalho final do 1º semestre da faculade de Análise e Desenvolvimento de Sistemas, onde eu pude colocar em prática oque aprendi durante todo esse período.
 
 
 ## 🛠 Habilidades utilizadas
 Para fazer o trabalho, utilizei:
-- Bootstrap
+- Bootstrap (v5.3)
 - CSS
 - HTML
 
