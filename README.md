@@ -7,7 +7,7 @@ Este é o meu trabalho final do 1º semestre da faculade de Análise e Desenvolv
 
 ## 🛠 Habilidades utilizadas
 Para fazer o trabalho, utilizei:
-- Bootstrap (5.3)
+- Bootstrap (versão 5.3)
 - CSS
 - HTML
 
